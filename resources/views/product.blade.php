@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsiveness.css">
+  <link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav-div">
+
+      <div id="logo-div">
+        <a href="#" id="logo-id">Z<img src="images/13825522.png" id="logo-image"></a>
+      </div>
+
+      <div class="menu-icon">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </div>
+
+      <ul class="pages-div">
+
+
+        <li><a href="index.html" class="pages-class">کور پاڼه</a></li>
+        <li><a href="products.html" class="pages-class">توکی</a></li>
+        <li><a href="cart.html" class="pages-class">کارټ</a></li>
+        <li><a href="Orders.html" class="pages-class">زما اډرونه</a></li>
+
+
+      </ul>
+
+      <div id="log-sign-id">
+
+        <a class="log-sgin-div" href="login.html">ننوتل</a>
+        <a class="log-sgin-div" href="register.html">راجستر</a>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="products-section">
+      <div class="search-div">
+        <input class="search-tabe" type="text" placeholder="لټون">
+        <a href="#" class="search-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </a>
+      </div>
+
+
+      <div class="product-parent-div">
+
+        <!--
+            <div class="product-div">
+
+                <img class="product-image" src="images/products/6-piece-white-dinner-plate-set.jpg">
+                
+                <p class="product-p">
+                      شپږ دانی د غابونو سیټ
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-40.png">
+                     <a href="#" class="number-rating">۳۷</a>
+                </div>
+
+                 <p class="product-price">120AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button  class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button  class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+
+
+
+             </div>
+
+            <div class="product-div">
+
+                
+                <img class="product-image" src="images/products/electric-glass-and-steel-hot-water-kettle.webp">
+                
+                
+                    <p class="product-p">
+                      برقی ښیښیی ترموز او د ابو تودونکی
+                </p>
+                
+              
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-50.png">
+                     <a href="#" class="number-rating">۸۴۶</a>
+                </div>
+
+                 <p class="product-price">500AF</p>
+
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+                
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+
+
+            </div>
+
+            <div class="product-div">
+
+                
+                <img class="product-image" src="images/products/intermediate-composite-basketball.jpg">
+                
+                <p class="product-p">
+                     د باسکیټبال توپ
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-40.png">
+                     <a href="#" class="number-rating">۱۲۷</a>
+                </div>
+
+                 <p class="product-price">150AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+
+
+            </div>
+
+            <div class="product-div">
+
+                
+                <img class="product-image" src="images/products/floral-mixing-bowl-set.jpg">
+                
+                <p class="product-p">
+                      د ګلداره پیالو سیټ
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-50.png">
+                     <a href="#" class="number-rating">۶۷۹</a>
+                </div>
+
+                 <p class="product-price">240AF</p>
+
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+                
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+
+
+            </div>
+
+            <div class="product-div">
+
+                
+                <img class="product-image" src="images/products/liquid-laundry-detergent-plain.jpg">
+                
+                <p class="product-p">
+                      د کالو پریولولو شامپو
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۳۰۵</a>
+                </div>
+
+                 <p class="product-price">100AF</p>
+
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+                
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+
+            </div>
+
+            <div class="product-div">
+
+                <img class="product-image" src="images/products/men-golf-polo-t-shirt-blue.jpg">
+                
+                <p class="product-p">
+                     شین رنګ بی لستوڼو یخنکاک
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۲۵۵۶</a>
+                </div>
+
+                 <p class="product-price">150AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          <div class="product-div">
+
+                <img class="product-image" src="images/products/women-chunky-beanie-gray.webp">
+                
+                <p class="product-p">
+                     د زنانو لپاره د یخ پنډی خولی
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-50.png">
+                     <a href="#" class="number-rating">۸۳</a>
+                </div>
+
+                 <p class="product-price">110AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+          </div>    
+
+
+          <div class="product-div">
+
+                <img class="product-image" src="images/products/men-navigator-sunglasses-brown.jpg">
+                
+                <p class="product-p">
+                     د لمر ضد نصواری عینکی
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-40.png">
+                     <a href="#" class="number-rating">۴۷</a>
+                </div>
+
+                 <p class="product-price">80AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+          </div>    
+
+
+
+          <div class="product-div">
+
+                <img class="product-image" src="images/products/men-cozy-fleece-zip-up-hoodie-red.jpg">
+                
+                <p class="product-p">
+                            د نارینو ځنځیر لرونکی انګیا
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۳۱۵۰</a>
+                </div>
+
+                 <p class="product-price">350AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+          </div>    
+
+
+
+          <div class="product-div">
+
+                <img class="product-image" src="images/products/cotton-bath-towels-teal.webp">
+                
+                <p class="product-p">
+                        وړین او پاسته ټیولنه
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۹۳</a>
+                </div>
+
+                 <p class="product-price">180AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+          </div>  
+          
+          
+          
+            <div class="product-div">
+
+                <img class="product-image" src="images/products/men-chino-pants-beige.jpg">
+                
+                <p class="product-p">
+                    د نارینو لپاره کلاسیک پیټ پتلونان
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۹۰۱۷</a>
+                </div>
+
+                 <p class="product-price">800AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          
+            <div class="product-div">
+
+                <img class="product-image" src="images/products/men-athletic-shoes-green.jpg">
+                
+                <p class="product-p">
+                    د نارینو لپاره د ابو ضد ورزشی بوټونه
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-40.png">
+                     <a href="#" class="number-rating">۲۲۹</a>
+                </div>
+
+                 <p class="product-price">750AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          
+            <div class="product-div">
+
+                <img class="product-image" src="images/products/sky-flower-stud-earrings.webp">
+                
+                <p class="product-p">
+                   د سپینو زرو کوچنی غوږ والی
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۵۲</a>
+                </div>
+
+                 <p class="product-price">1200AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          
+            <div class="product-div">
+
+                <img class="product-image" src="images/products/athletic-cotton-socks-6-pairs.jpg">
+                
+                <p class="product-p">
+                      شپږ جوړی ورزشی جرابی
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۸۷</a>
+                </div>
+
+                 <p class="product-price">180AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          
+            <div class="product-div">
+
+                <img class="product-image" src="images/products/non-stick-cooking-set-15-pieces.webp">
+                
+                <p class="product-p">
+                     د آشپزی کولو د کړایانو سیټ
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۵۱۱</a>
+                </div>
+
+                 <p class="product-price">2500AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/6-piece-non-stick-baking-set.webp">
+                
+                <p class="product-p">
+                    د خوراکی توکو لپاره پلاسټکی لوښی
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۱۷۵</a>
+                </div>
+
+                 <p class="product-price">450AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+        
+
+          
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/coffeemaker-with-glass-carafe-black.jpg">
+                
+                <p class="product-p">
+                    د قهوی جوړولو ماشین
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۱۲۱۱</a>
+                </div>
+
+                 <p class="product-price">1500AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/round-airtight-food-storage-containers.jpg">
+                
+                <p class="product-p">
+                  د وچی میوی د ساتلو لپاره لوښی
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-40.png">
+                     <a href="#" class="number-rating">۱۲۶</a>
+                </div>
+
+                 <p class="product-price">550AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          <div class="product-div">
+
+                <img class="product-image" src="images/products/countertop-blender-64-oz.jpg">
+                
+                <p class="product-p">
+                  د میوو اوبه کولو برقی جوسر
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-40.png">
+                     <a href="#" class="number-rating">۳</a>
+                </div>
+
+                 <p class="product-price">3000AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          <div class="product-div">
+
+                <img class="product-image" src="images/products/women-knit-ballet-flat-black.jpg">
+                
+                <p class="product-p">
+                 زنانه کښته بوټونه
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-40.png">
+                     <a href="#" class="number-rating">۳۲۶</a>
+                </div>
+
+                 <p class="product-price">280AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg">
+                
+                <p class="product-p">
+                    د  لویانو لپاره وړین یخنکاکونه
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۵۶</a>
+                </div>
+
+                 <p class="product-price">120AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/variations/men-chino-pants-black.jpg">
+                
+                <p class="product-p">
+                   مردانه یی تور پتلونان
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۱۰۵۰</a>
+                </div>
+
+                 <p class="product-price">800AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+
+          
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/backpack.jpg">
+                
+                <p class="product-p">
+                   د سفر لپاره مناسبه د وړلو بسته
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۳۴۰</a>
+                </div>
+
+                 <p class="product-price">1100AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/umbrella.jpg">
+                
+                <p class="product-p">
+                  د باران لپاره کلک سایوان
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-45.png">
+                     <a href="#" class="number-rating">۵۸۰</a>
+                </div>
+
+                 <p class="product-price">600AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button  class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button  class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+
+          
+           <div class="product-div">
+
+                <img class="product-image" src="images/products/black-2-slot-toaster.jpg">
+                
+                <p class="product-p">
+                 د روغانی پخولو دیګ
+                </p>
+
+                <div class="product-rating-div">
+                    <img class="star-rating" src="images/ratings/rating-50.png">
+                     <a href="#" class="number-rating">۲۱۹۷</a>
+                </div>
+
+                 <p class="product-price">1200AF</p>
+                
+                  <div class="count-div">
+                    <label>شمیر:</label>
+                    <input type="number" min="1" max="1000" value="1">
+                  </div> 
+
+                <div class="products-button-div">
+                    <button  class="products-button carts-button">کارټ ته ولیږئ</button>
+                    <button  class="products-button buys-button">اوس یی رانیسی</button>
+                </div>
+               
+          </div>
+
+          -->
+
+      </div>
+
+    </section>
+
+
+    <section class="review-section" id="review_and_rating">
+
+      <h2>نظرونه او درجه بندی</h2>
+
+      <div class="review-div">
+
+        <article class="review-card">
+
+          <div class="title-div">
+            <img class="rating-image" src="images/ratings/rating-50.png">
+
+            <h4>د باران لپاره سایوان</h4>
+
+            <h3>
+              یو تر ټولو ښه محصول
+            </h3>
+
+          </div>
+          <p class="review-p">
+            د باران لپاره ښه شی دی او د سخت باران او ژلیو په وړاندی محکم او ټینګ دی، په قیمت هم ښه ارزانه دی
+          </p>
+
+          <div class="review-user">
+
+            <img class="user-image" src="users/oguz-yagiz-kara-MZf0mI14RI0-unsplash.jpg">
+            <h4 class="username">شاهد خان</h4>
+            <p class="user-location">کابل</p>
+
+          </div>
+
+        </article>
+
+        <article class="review-card">
+
+          <div class="title-div">
+            <img class="rating-image" src="images/ratings/rating-50.png">
+
+            <h4>د قهوی جوړولو ماشین </h4>
+
+            <h3>
+              یو تر ټولو ښه محصول
+            </h3>
+
+          </div>
+
+          <p class="review-p">
+            د قهوی جوړولو لپاره ښه شی دی او په ډیر ښه ډول یی جوړی په کم وخت کی، بیله کوم تکلیفه.
+          </p>
+
+          <div class="review-user">
+
+            <img class="user-image" src="users/IMG-20230918-WA0043.jpg">
+            <h4 class="username">عبدالظاهر</h4>
+            <p class="user-location">کندهار</p>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+
+          <div class="title-div">
+            <img class="rating-image" src="images/ratings/rating-50.png">
+
+            <h4>نخی یخنکاکونه</h4>
+
+            <h3>
+              یو تر ټولو ښه محصول
+            </h3>
+
+          </div>
+          <p class="review-p">
+            یو ښه محصول دی چی تیر ژمی می رانیولی وو، تود او دیر ډبل دی تا سو یی هم یو ځل وکاروی
+          </p>
+
+          <div class="review-user">
+
+            <img class="user-image" src="users/20241226_144115.jpg">
+            <h4 class="username">عبدالنافع</h4>
+            <p class="user-location">کندهار</p>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+
+          <div class="title-div">
+            <img class="rating-image" src="images/ratings/rating-50.png">
+
+            <h4>نخی یخنکاکونه</h4>
+
+            <h3>
+              یو تر ټولو ښه محصول
+            </h3>
+
+          </div>
+          <p class="review-p">
+            یو ښه محصول دی چی تیر ژمی می رانیولی وو، تود او دیر ډبل دی تا سو یی هم یو ځل وکاروی
+          </p>
+
+          <div class="review-user">
+
+            <img class="user-image" src="users/20240504_225940.jpg">
+            <h4 class="username">عادل احمد</h4>
+            <p class="user-location">کندهار</p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="review-card">
+
+
+          <div class="title-div">
+            <img class="rating-image" src="images/ratings/rating-50.png">
+
+            <h4>نخی یخنکاکونه</h4>
+
+            <h3>
+              یو تر ټولو ښه محصول
+            </h3>
+
+          </div>
+          <p class="review-p">
+            یو ښه محصول دی چی تیر ژمی می رانیولی وو، تود او دیر ډبل دی تا سو یی هم یو ځل وکاروی
+          </p>
+
+          <div class="review-user">
+
+            <img class="user-image" src="users/20240417_224414.jpg">
+            <h4 class="username">احمدالله</h4>
+            <p class="user-location">کندهار</p>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+
+          <div class="title-div">
+            <img class="rating-image" src="images/ratings/rating-50.png">
+
+            <h4> د نارینو ورزشی بوټونه</h4>
+
+            <h3>
+              یو تر ټولو ښه محصول
+            </h3>
+
+          </div>
+          <p class="review-p">
+            فیشنی او او هوسا د ورزش بوټونه دی، ښه کیفیت او زیات وخت مقاومت کوی، بیله دی چی څیری سی
+          </p>
+
+          <div class="review-user">
+
+            <img class="user-image" src="users/20240426_171250.jpg">
+            <h4 class="username">رحمت الله</h4>
+            <p class="user-location">کندهار</p>
+
+          </div>
+
+        </article>
+
+
+
+      </div>
+
+      <div class="rating-link-div">
+        <a href="Orders.html" class="rating-link">غواړی نظر او درجه بندي وکړی؟</a>
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <footer id="footer">
+
+    <div>
+      <p id="footer-paragraph">موږ سره اړیکه ونیسئ</p>
+    </div>
+
+    <div class="footer-social-media-links">
+      <a href="#" class="social-media-links">
+        <svg style="width: 38px; " xmlns="http://www.w3.org/2000/svg" fill="none" height="48" viewBox="0 0 48 48"
+          width="48">
+          <path
+            d="m48 24c0-13.2562-10.7438-24-24-24s-24 10.7438-24 24c0 11.9813 8.775 21.9094 20.25 23.7094v-16.7719h-6.0938v-6.9375h6.0938v-5.2875c0-6.0141 3.5813-9.3375 9.0656-9.3375 2.625 0 5.3719.46875 5.3719.46875v5.90625h-3.0281c-2.9813 0-3.9094 1.8516-3.9094 3.75v4.5h6.6562l-1.064 6.9375h-5.5922v16.7719c11.475-1.8 20.25-11.7281 20.25-23.7094z"
+            fill="#1877f2" />
+          <path
+            d="m33.3422 30.9375 1.064-6.9375h-6.6562v-4.5c0-1.8984.9281-3.75 3.9094-3.75h3.0281v-5.90625s-2.7469-.46875-5.3719-.46875c-5.4843 0-9.0656 3.3234-9.0656 9.3375v5.2875h-6.0938v6.9375h6.0938v16.7719c1.2234.1922 2.475.2906 3.75.2906s2.5266-.0984 3.75-.2906v-16.7719z"
+            fill="#fff" />
+        </svg>
+      </a>
+      <a href="#" class="social-media-links" style="margin-top: -5px;">
+        <img src="images/social_inst.png" id="instagram-image">
+      </a>
+      <a href="#" class="social-media-links" id="linkedin-link">
+        <svg style="width: 38px; margin-left: -43px;" xmlns="http://www.w3.org/2000/svg" fill="none" height="48"
+          viewBox="0 0 48 48" width="48">
+          <path d="m0 24c0-13.2548 10.7452-24 24-24s24 10.7452 24 24-10.7452 24-24 24-24-10.7452-24-24z"
+            fill="#0077b5" />
+          <path clip-rule="evenodd"
+            d="m17.3188 14.8227c0 1.5691-1.1811 2.8246-3.0776 2.8246h-.0348c-1.8259 0-3.0064-1.2555-3.0064-2.8246 0-1.6023 1.2164-2.8227 3.077-2.8227 1.8607 0 3.0065 1.2204 3.0418 2.8227zm-.3583 5.0551v16.3418h-5.4389v-16.3418zm19.6147 16.3418.0002-9.3699c0-5.0194-2.6832-7.3556-6.2623-7.3556-2.8877 0-4.1806 1.5861-4.9024 2.6988v-2.3146h-5.4396c.0717 1.5334 0 16.3417 0 16.3417h5.4396v-9.1266c0-.4884.0353-.9756.1791-1.3253.3931-.9757 1.2881-1.9859 2.7907-1.9859 1.9689 0 2.756 1.4985 2.756 3.6945v8.7429z"
+            fill="#fff" fill-rule="evenodd" />
+        </svg>
+      </a>
+
+
+
+    </div>
+
+    <div class="address-store-div">
+
+      <div class="Address-div">
+        <div id="footer-logo-div" style="  border: white 3px solid ;">
+          <a href="#" id="footer-logo-id">Z<img src="images/13825522.png" id="footer-logo-image"></a>
+
+        </div>
+        <a href="#" id="link-address">Zaryab</a>
+
+        <p id="link-address-paragraph">© 2026 Zaryab Inc, Kandahar University, Kandahar, Afghanistan</p>
+
+      </div>
+
+
+      <div class="footer-link-store-div">
+        <a href="#"><img src="images/appstore.webp" class="footer-store-link"></a>
+        <a href="#"><img src="images/googleplay.webp" class="footer-store-link"></a>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
